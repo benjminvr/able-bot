@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.env
+*.venv
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and databases
+*.log
+db.sqlite3
+instance/
+
+# Testing / coverage reports
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ntuser.dat
+
+# Custom Ignore
+local_settings.py
+.envrc
+
+# pip freeze output
+requirements.txt
+
+# Docker
+.dockerignore
+docker-compose.override.yml
