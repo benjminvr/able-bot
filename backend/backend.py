@@ -7,7 +7,6 @@ import os
 
 load_dotenv()
 
-# Set up OpenAI client
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 app = Flask(__name__)
@@ -85,7 +84,6 @@ def get_chatbot_answer():
     if not user_question:
         return jsonify({"error": "Question is required"}), 400
 
-    # Call the function to get the response from the LLM or FAQ
     answer = get_llm_response(user_question)
 
     if not answer:

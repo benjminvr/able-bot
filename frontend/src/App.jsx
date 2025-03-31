@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'; // This will import the global CSS (including Tailwind)
+import './App.css';
 import Chatbot from './components/Chatbot';
 
 function App() {
